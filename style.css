@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-column: 5px 60px 10px 60px 10px 60px 5px;
+    grid-row: 5px 20px 15px 150px 15px 150px 15px 150px 5px;
+}
+body{
+    background-color: rgb(66, 92, 81);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tipoFernando{
+    grid-template-columns: 2/6;
+    grid-template-rows: 4/4;
+}
+.tipoPreslava{
+    grid-template-columns: 2/6;
+    grid-template-rows: 6/6;
+}
+.tipoYaryna{
+    grid-template-columns: 2/6;
+    grid-template-rows: 8/8;
+}
