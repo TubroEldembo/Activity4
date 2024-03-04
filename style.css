@@ -44,6 +44,7 @@ body{
     grid-template-rows: 6/6;
     display: block;
     margin: 5px;
+    background-color: rgba(137, 43, 226, 0.582);
 }
 .tipoPokemonPreslava{/*caja en donde se pondrá el tipo de pokemon que a elegido Preslava*/
     grid-template-columns: 2/6;
