@@ -27,13 +27,15 @@ body{
     grid-template-columns: 2/6;
     grid-template-rows: 4/4;
     display: block;
-    margin: 5px;
+    margin: 2px;
+    background-color: rgba(255, 32, 32, 0.856);
 }
 .tipoPokemonFernando{/*caja en donde se pondrá el tipo de pokemon que a elegido Fernando*/
     grid-template-columns: 2/6;
     grid-template-rows: 3/3;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 32, 32, 0.856);
 }
 .pTituloTipoPokemom{/*Estilo general de como seran los títulos de Fernando, Yaryna y Preslava*/
     font-family: 'Courier New', Courier, monospace;
@@ -45,6 +47,7 @@ body{
     display: block;
     margin: 5px;
     background-color: rgba(137, 43, 226, 0.582);
+
 }
 .tipoPokemonPreslava{/*caja en donde se pondrá el tipo de pokemon que a elegido Preslava*/
     grid-template-columns: 2/6;
@@ -56,7 +59,13 @@ body{
     display: inline-block;
     width: 30%;
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.856);
+    background-color: rgba(6, 176, 243, 0.856);
+}
+.cajasPokemonFernando{/*Las cajas que estan en el interior de la caja padre. Aquí se pondrá la foto y la informacion de cada Pokémon*/
+    display: inline-block;
+    width: 30%;
+    padding: 5px;
+    background-color: rgba(255, 32, 32, 0.856);
 }
 .imagenPokemon{/*La caja que se utilizara SOLO para la imagen del Pokémon*/
     width: auto;
@@ -68,6 +77,7 @@ body{
     width: auto;
     justify-content: center;
     align-items: center;
+    
 }
 .pInformacionPokemon{/*Estilo que se utilizará para poner la informacion. Modifica el <p>*/
     font-family: 'Courier New', Courier, monospace;
