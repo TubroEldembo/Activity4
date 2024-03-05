@@ -47,7 +47,6 @@ body{
     display: block;
     margin: 5px;
     background-color: rgba(137, 43, 226, 0.582);
-
 }
 .tipoPokemonPreslava{/*caja en donde se pondrá el tipo de pokemon que a elegido Preslava*/
     grid-template-columns: 2/6;
@@ -56,6 +55,7 @@ body{
     align-items: center;
 }
 .cajasPokemon{/*Las cajas que estan en el interior de la caja padre. Aquí se pondrá la foto y la informacion de cada Pokémon*/
+
     display: inline-block;
     width: 30%;
     padding: 5px;
