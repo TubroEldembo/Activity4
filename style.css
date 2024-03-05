@@ -60,6 +60,7 @@ body{
     width: 30%;
     padding: 5px;
     background-color: rgba(6, 176, 243, 0.856);
+    border-radius: 4px;
 }
 .cajasPokemonFernando{/*Las cajas que estan en el interior de la caja padre. Aquí se pondrá la foto y la informacion de cada Pokémon*/
     display: inline-block;
