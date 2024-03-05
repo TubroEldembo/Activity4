@@ -57,6 +57,7 @@ body{
     width: 30%;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.856);
+    border-radius: 3px;
 }
 .imagenPokemon{/*La caja que se utilizara SOLO para la imagen del Pokémon*/
     width: auto;
